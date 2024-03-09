@@ -10,6 +10,10 @@ The 2 clients can then enjoy the game.
 # Note:
 ->The clients must have the path to the certificate and the server must have the path to both certificate as well as the key.
 
+->The server and clients must be connected to the same WiFi.
+
 ->Fill in the ip address of the server only.
+
+->To know the ip address of the server device, open the terminal and type "ipconfig" (for windows) or "ifconfig" (for linux). You will find ip address in LAN WiFi (IPv4 address).
 
 Can be used for reference: https://t.ly/ZRZTP
