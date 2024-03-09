@@ -14,6 +14,6 @@ The 2 clients can then enjoy the game.
 
 ->Fill in the ip address of the server only.
 
-->To know the ip address of the server device, open the terminal and type "ipconfig" (for windows) or "ifconfig" (for linux). You will find ip address in LAN WiFi (IPv4 address).
+->To know the ip address of the server device, open the terminal and type "ipconfig" (for windows) or "ifconfig" (for linux). You will find the ip address in LAN WiFi (IPv4 address).
 
 Can be used for reference: https://t.ly/ZRZTP
