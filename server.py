@@ -60,7 +60,7 @@ class TicTacToeServer(threading.Thread):
                     self.players.remove(player_info)
 
 if __name__ == "__main__":
-    host = "192.168.1.5"
+    host = "######" #Server ip address goes here
     port = 7005
     server = TicTacToeServer(host, port)
     server.start()

@@ -31,7 +31,7 @@ class TicTacToeClient:
         self.root.mainloop()
 
     def on_button_click(self, row, col):
-        if self.board[row][col] == " " and self.current_player == "X":  # Check for current player
+        if self.board[row][col] == " " and self.current_player == "X": 
             self.buttons[row][col].config(text=self.current_player)
             self.board[row][col] = self.current_player
             move = f"{row},{col}"
@@ -92,13 +92,13 @@ class TicTacToeClient:
         for i in range(3):
             for j in range(3):
                 self.buttons[i][j].config(text="")
-        self.current_player = "X"  # Change the starting player for client 2
+        self.current_player = "X"  
 
     def on_close(self):
         self.client_socket.close()
         self.root.destroy()
 
 if __name__ == "__main__":
-    host = "192.168.1.5"
+    host = "######" #Server ip address goes here
     port = 7005
     client = TicTacToeClient(host, port)
